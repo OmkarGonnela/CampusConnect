@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar{
+    background-image: linear-gradient(to right,#862495,#c73254);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 50px;
+    padding-left: 20px;
+
+}
+.navbar-nav li{
+padding: 0 10px;
+
+}
+.navbar-nav li a{
+    color:#fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+     
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+#clubs{
+  
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+    padding: 60px;
+    align-items: center; 
+    background: linear-gradient(to right,#c367d1,#802e41);
+}
+#clubs > div { 
+    padding: 20px; 
+    background-color: lightgray; 
+    text-align: center;
+}
+.carousel-inner img {
+    width: 100%; 
+    height: auto;
+    max-height: 600px;
+    max-width: 1000px;
+    margin: 0 auto; 
+    
+  }
+  .carousel-inner{
+    background: linear-gradient(to right,#c367d1,#802e41);
+    text-align: center;
+    
+  }
